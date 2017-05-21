@@ -28,15 +28,15 @@ namespace WbLib
              #region methods
         public WbEnv()
         {
-            DataTable dt = Common.GetCurrentWb();
-            if (dt != null & dt.Rows.Count > 0)
-            {
-                envCenterId = int.Parse(dt.Rows[0].ItemArray[0].ToString());
-                envCenterName = dt.Rows[0].ItemArray[1].ToString();
-                envVersion = dt.Rows[0].ItemArray[5].ToString();
-            }
-            envMachineName = Environment.MachineName;
-            envTodaysDate = CommonHelper.GetToday();
+            //DataTable dt = Common.GetCurrentWb();
+            //if (dt != null & dt.Rows.Count > 0)
+            //{
+            //    envCenterId = int.Parse(dt.Rows[0].ItemArray[0].ToString());
+            //    envCenterName = dt.Rows[0].ItemArray[1].ToString();
+            //    envVersion = dt.Rows[0].ItemArray[5].ToString();
+            //}
+            //envMachineName = Environment.MachineName;
+            //envTodaysDate = CommonHelper.GetToday();
         }
         public static WbEnv Current
         {

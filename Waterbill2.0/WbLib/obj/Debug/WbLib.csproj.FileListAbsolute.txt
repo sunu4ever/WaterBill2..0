@@ -3,3 +3,11 @@ D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\bin\Debug\WbLib.pdb
 D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\obj\Debug\ResolveAssemblyReference.cache
 D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\obj\Debug\WbLib.dll
 D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\obj\Debug\WbLib.pdb
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\obj\Debug\ResolveAssemblyReference.cache
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\obj\Debug\WbLib.dll
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\bin\Debug\WbLib.dll.config
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\bin\Debug\WbLib.dll
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\bin\Debug\WbLib.pdb
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\bin\Debug\Telerik.Reporting.dll
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\bin\Debug\Telerik.ReportViewer.WinForms.dll
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\WbLib\obj\Debug\WbLib.pdb
