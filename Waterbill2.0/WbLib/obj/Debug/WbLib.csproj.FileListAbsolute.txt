@@ -1,0 +1,5 @@
+D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\bin\Debug\WbLib.dll
+D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\bin\Debug\WbLib.pdb
+D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\obj\Debug\ResolveAssemblyReference.cache
+D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\obj\Debug\WbLib.dll
+D:\My Projects\WaterBill 2.0\Waterbill2.0\WbLib\obj\Debug\WbLib.pdb

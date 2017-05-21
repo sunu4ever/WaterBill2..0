@@ -1,0 +1,15 @@
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\bin\Debug\Waterbill2.0.exe
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\bin\Debug\Waterbill2.0.pdb
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.Properties.Resources.resources
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmBaseRadForm.resources
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmSplashScreen.resources
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.0.exe
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.0.pdb
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmHome.resources
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmHomeTab.resources
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmLogin.resources
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.0.exe.licenses
+D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmUsers.resources
