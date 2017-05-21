@@ -13,3 +13,5 @@ D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.
 D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmLogin.resources
 D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.0.exe.licenses
 D:\My Projects\WaterBill 2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.UI.frmUsers.resources
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.0.exe
+E:\My Projects\Source\WaterBill2.0\Waterbill2.0\Waterbill2.0\obj\x86\Debug\Waterbill2.0.pdb
