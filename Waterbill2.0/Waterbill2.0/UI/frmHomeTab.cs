@@ -34,7 +34,7 @@ namespace Waterbill2.UI
         private void AddTab(string formTitle,string formName)
         {
             RadPageViewPage page = new RadPageViewPage();
-            //page.BackColor = System.Drawing.Color.White;
+            //page.BackColor = System.Drawing.Color.WhiteSmoke;
             //page.ForeColor = System.Drawing.Color.White;
 
             var pageView = (RadPageView)this.Parent.Parent;
@@ -67,19 +67,32 @@ namespace Waterbill2.UI
 
 
                 //RadPageViewPage page = new RadPageViewPage();
-                frmShow.FormBorderStyle = FormBorderStyle.None;
+                //frmShow.FormBorderStyle = FormBorderStyle.None;
+                int Width = Screen.PrimaryScreen.Bounds.Width;
+                int Height = Screen.PrimaryScreen.Bounds.Height - 150;
+                int frmWidth = frmShow.Width;
+                int leftPos = (Width - frmWidth) / 2;
+                int frmHeight = frmShow.Height;
+                int topPos = (Height - frmHeight) / 2;
+
                 frmShow.TopLevel = false;
-                frmShow.Top = 0;
-                frmShow.Left = 0;
+                frmShow.Top = topPos;
+                frmShow.Left = leftPos;
                 page.Text = formTitle;
-                //page.BackColor = System.Drawing.Color.White;
+                //  page.BackColor = System.Drawing.Color.White;
                 // page.ForeColor = System.Drawing.Color.White;
+                //frmShow.BringToFront();
+              
+                frmShow.Show();
                 page.Controls.Add(frmShow);
+                
                 //var pageView = (RadPageView)this.Parent.Parent;
                 frmShow.Show();
+                //frmShow.BringToFront();
                 frmShow.StartPosition = FormStartPosition.CenterScreen;
-                frmShow.FormBorderStyle = FormBorderStyle.None;
-                page.Show();
+              
+               //frmShow.FormBorderStyle = FormBorderStyle.None;
+               // page.Show();
 
                 //pageView.Pages.Add(page);
                 userClicked = false;

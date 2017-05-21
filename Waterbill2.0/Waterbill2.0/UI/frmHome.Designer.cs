@@ -36,6 +36,7 @@
             // 
             // radHomePageView
             // 
+            this.radHomePageView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(212)))), ((int)(((byte)(251)))));
             this.radHomePageView.Cursor = System.Windows.Forms.Cursors.Default;
             this.radHomePageView.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.radHomePageView.Location = new System.Drawing.Point(12, 19);
@@ -46,6 +47,9 @@
             this.radHomePageView.PageRemoving += new System.EventHandler<Telerik.WinControls.UI.RadPageViewCancelEventArgs>(this.radHomePageView_PageRemoving);
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.radHomePageView.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.None;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.radHomePageView.GetChildAt(0))).ShowItemCloseButton = true;
+            ((Telerik.WinControls.UI.RadPageViewStripElement)(this.radHomePageView.GetChildAt(0))).BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(212)))), ((int)(((byte)(251)))));
+            ((Telerik.WinControls.UI.StripViewItemContainer)(this.radHomePageView.GetChildAt(0).GetChildAt(0))).BackColor2 = System.Drawing.SystemColors.Control;
+            ((Telerik.WinControls.UI.StripViewItemLayout)(this.radHomePageView.GetChildAt(0).GetChildAt(0).GetChildAt(0))).BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             // 
             // frmHome
             // 
