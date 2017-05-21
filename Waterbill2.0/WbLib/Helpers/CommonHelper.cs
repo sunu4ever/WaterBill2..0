@@ -94,7 +94,7 @@ namespace WbLib.Helpers
                 }
             }
 
-            //Auto fil the column in the grid
+            //Auto fil the column in the grid 
             // if (colWidth == null)
             //{
             radGrid.MasterTemplate.AutoSizeColumnsMode = GridViewAutoSizeColumnsMode.Fill;
