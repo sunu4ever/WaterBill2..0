@@ -50,6 +50,7 @@
             this.ddlActive = new Telerik.WinControls.UI.RadDropDownList();
             this.radGb1 = new Telerik.WinControls.UI.RadGroupBox();
             this.rgvSaleDetails = new Telerik.WinControls.UI.RadGridView();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.btnSave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ddlRoles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword)).BeginInit();
@@ -67,6 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).BeginInit();
             this.radGb1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rgvSaleDetails)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,7 +76,7 @@
             // 
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.Teal;
-            this.btnSave.Location = new System.Drawing.Point(233, 250);
+            this.btnSave.Location = new System.Drawing.Point(263, 250);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(103, 31);
             this.btnSave.TabIndex = 13;
@@ -113,7 +115,7 @@
             // 
             this.btnNew.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnNew.ForeColor = System.Drawing.Color.Teal;
-            this.btnNew.Location = new System.Drawing.Point(99, 250);
+            this.btnNew.Location = new System.Drawing.Point(154, 250);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(103, 31);
             this.btnNew.TabIndex = 10;
@@ -183,6 +185,7 @@
             // radGb2
             // 
             this.radGb2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGb2.Controls.Add(this.radButton1);
             this.radGb2.Controls.Add(this.ddlActive);
             this.radGb2.Controls.Add(this.btnSave);
             this.radGb2.Controls.Add(this.ddlRoles);
@@ -224,7 +227,6 @@
             this.radGb1.Size = new System.Drawing.Size(493, 294);
             this.radGb1.TabIndex = 4;
             this.radGb1.Text = " Users List";
-            this.radGb1.Click += new System.EventHandler(this.radGb1_Click);
             // 
             // rgvSaleDetails
             // 
@@ -274,6 +276,16 @@
             this.rgvSaleDetails.Text = "radGridView1";
             this.rgvSaleDetails.UseCompatibleTextRendering = false;
             // 
+            // radButton1
+            // 
+            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
+            this.radButton1.ForeColor = System.Drawing.Color.Teal;
+            this.radButton1.Location = new System.Drawing.Point(45, 250);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(103, 31);
+            this.radButton1.TabIndex = 15;
+            this.radButton1.Text = "Delete";
+            // 
             // frmUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -289,7 +301,6 @@
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "frmUsers";
             this.ThemeName = "Office2010Blue";
-            this.Load += new System.EventHandler(this.frmUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnSave)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ddlRoles)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword)).EndInit();
@@ -308,6 +319,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).EndInit();
             this.radGb1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rgvSaleDetails)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -332,5 +344,6 @@
         private Telerik.WinControls.UI.RadGroupBox radGb1;
         private Telerik.WinControls.UI.RadDropDownList ddlActive;
         private Telerik.WinControls.UI.RadGridView rgvSaleDetails;
+        private Telerik.WinControls.UI.RadButton radButton1;
     }
 }
