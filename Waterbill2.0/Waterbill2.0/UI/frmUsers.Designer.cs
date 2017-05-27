@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn8 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
             this.office2010BlueTheme1 = new Telerik.WinControls.Themes.Office2010BlueTheme();
             this.btnSave = new Telerik.WinControls.UI.RadButton();
             this.ddlRoles = new Telerik.WinControls.UI.RadDropDownList();
@@ -49,7 +49,7 @@
             this.radGb2 = new Telerik.WinControls.UI.RadGroupBox();
             this.ddlActive = new Telerik.WinControls.UI.RadDropDownList();
             this.radGb1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.rgvUsers = new Telerik.WinControls.UI.RadGridView();
+            this.rgvSaleDetails = new Telerik.WinControls.UI.RadGridView();
             ((System.ComponentModel.ISupportInitialize)(this.btnSave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ddlRoles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword)).BeginInit();
@@ -66,7 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).BeginInit();
             this.radGb1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rgvUsers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvSaleDetails)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -215,7 +215,7 @@
             // radGb1
             // 
             this.radGb1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGb1.Controls.Add(this.rgvUsers);
+            this.radGb1.Controls.Add(this.rgvSaleDetails);
             this.radGb1.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radGb1.ForeColor = System.Drawing.Color.Teal;
             this.radGb1.HeaderText = " Users List";
@@ -226,48 +226,53 @@
             this.radGb1.Text = " Users List";
             this.radGb1.Click += new System.EventHandler(this.radGb1_Click);
             // 
-            // rgvUsers
+            // rgvSaleDetails
             // 
-            this.rgvUsers.AutoSizeRows = true;
-            this.rgvUsers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rgvUsers.Location = new System.Drawing.Point(14, 21);
-            // 
+            this.rgvSaleDetails.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rgvSaleDetails.Location = new System.Drawing.Point(14, 21);
             // 
             // 
-            this.rgvUsers.MasterTemplate.AllowAddNewRow = false;
-            this.rgvUsers.MasterTemplate.AllowCellContextMenu = false;
-            this.rgvUsers.MasterTemplate.AllowDeleteRow = false;
-            this.rgvUsers.MasterTemplate.AllowDragToGroup = false;
-            this.rgvUsers.MasterTemplate.AllowEditRow = false;
-            this.rgvUsers.MasterTemplate.AllowRowResize = false;
-            this.rgvUsers.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewTextBoxColumn5.HeaderText = "User";
-            gridViewTextBoxColumn5.Name = "column3";
-            gridViewTextBoxColumn5.Width = 118;
-            gridViewTextBoxColumn6.AllowFiltering = false;
-            gridViewTextBoxColumn6.AllowGroup = false;
-            gridViewTextBoxColumn6.AllowHide = false;
-            gridViewTextBoxColumn6.AllowReorder = false;
-            gridViewTextBoxColumn6.HeaderText = "Username";
-            gridViewTextBoxColumn6.Name = "username";
-            gridViewTextBoxColumn6.RowSpan = 25;
-            gridViewTextBoxColumn6.Width = 167;
-            gridViewTextBoxColumn7.HeaderText = "Role";
-            gridViewTextBoxColumn7.Name = "column2";
-            gridViewTextBoxColumn7.Width = 119;
-            gridViewTextBoxColumn8.HeaderText = "Active";
-            gridViewTextBoxColumn8.Name = "column1";
-            gridViewTextBoxColumn8.Width = 53;
-            this.rgvUsers.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn5,
-            gridViewTextBoxColumn6,
-            gridViewTextBoxColumn7,
-            gridViewTextBoxColumn8});
-            this.rgvUsers.MasterTemplate.EnableGrouping = false;
-            this.rgvUsers.MasterTemplate.ViewDefinition = tableViewDefinition2;
-            this.rgvUsers.Name = "rgvUsers";
-            this.rgvUsers.Size = new System.Drawing.Size(474, 260);
-            this.rgvUsers.TabIndex = 0;
+            // 
+            this.rgvSaleDetails.MasterTemplate.AllowAddNewRow = false;
+            this.rgvSaleDetails.MasterTemplate.AllowCellContextMenu = false;
+            this.rgvSaleDetails.MasterTemplate.AllowColumnChooser = false;
+            this.rgvSaleDetails.MasterTemplate.AllowColumnHeaderContextMenu = false;
+            this.rgvSaleDetails.MasterTemplate.AllowColumnReorder = false;
+            this.rgvSaleDetails.MasterTemplate.AllowColumnResize = false;
+            this.rgvSaleDetails.MasterTemplate.AllowDeleteRow = false;
+            this.rgvSaleDetails.MasterTemplate.AllowDragToGroup = false;
+            this.rgvSaleDetails.MasterTemplate.AllowRowResize = false;
+            this.rgvSaleDetails.MasterTemplate.AutoGenerateColumns = false;
+            gridViewTextBoxColumn1.HeaderText = "UserId";
+            gridViewTextBoxColumn1.IsVisible = false;
+            gridViewTextBoxColumn1.Name = "column1";
+            gridViewTextBoxColumn2.HeaderText = "Name";
+            gridViewTextBoxColumn2.Name = "column3";
+            gridViewTextBoxColumn2.Width = 200;
+            gridViewTextBoxColumn3.HeaderText = "User Name";
+            gridViewTextBoxColumn3.Name = "column2";
+            gridViewTextBoxColumn3.Width = 190;
+            gridViewTextBoxColumn4.HeaderText = "Is Active";
+            gridViewTextBoxColumn4.Name = "column7";
+            gridViewTextBoxColumn4.Width = 70;
+            this.rgvSaleDetails.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4});
+            this.rgvSaleDetails.MasterTemplate.EnableGrouping = false;
+            this.rgvSaleDetails.MasterTemplate.EnableSorting = false;
+            this.rgvSaleDetails.MasterTemplate.ShowFilteringRow = false;
+            this.rgvSaleDetails.MasterTemplate.ShowHeaderCellButtons = true;
+            this.rgvSaleDetails.MasterTemplate.ShowRowHeaderColumn = false;
+            this.rgvSaleDetails.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.rgvSaleDetails.Name = "rgvSaleDetails";
+            this.rgvSaleDetails.ShowGroupPanel = false;
+            this.rgvSaleDetails.ShowHeaderCellButtons = true;
+            this.rgvSaleDetails.Size = new System.Drawing.Size(461, 260);
+            this.rgvSaleDetails.TabIndex = 60;
+            this.rgvSaleDetails.Text = "radGridView1";
+            this.rgvSaleDetails.UseCompatibleTextRendering = false;
             // 
             // frmUsers
             // 
@@ -302,7 +307,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).EndInit();
             this.radGb1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.rgvUsers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvSaleDetails)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -325,7 +330,7 @@
         private Telerik.WinControls.UI.RadLabel rlbFname;
         private Telerik.WinControls.UI.RadGroupBox radGb2;
         private Telerik.WinControls.UI.RadGroupBox radGb1;
-        private Telerik.WinControls.UI.RadGridView rgvUsers;
         private Telerik.WinControls.UI.RadDropDownList ddlActive;
+        private Telerik.WinControls.UI.RadGridView rgvSaleDetails;
     }
 }

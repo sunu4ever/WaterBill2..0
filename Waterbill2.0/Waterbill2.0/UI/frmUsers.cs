@@ -93,15 +93,5 @@ namespace Waterbill2.UI
             //    MessageBox.Show("Error in Saving", "WaterBill");
             //}
         }
-
-        private void radGb1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmUsers_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
