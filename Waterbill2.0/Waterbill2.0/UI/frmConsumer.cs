@@ -15,10 +15,8 @@ namespace Waterbill2.UI
         {
             InitializeComponent();
         }
-
-        private void radLabel2_Click(object sender, EventArgs e)
-        {
-                    }  
+    }
+}
 
        
 

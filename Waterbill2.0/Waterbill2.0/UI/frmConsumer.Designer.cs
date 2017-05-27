@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition3 = new Telerik.WinControls.UI.TableViewDefinition();
             this.radGb1 = new Telerik.WinControls.UI.RadGroupBox();
             this.rgvUsers = new Telerik.WinControls.UI.RadGridView();
             this.radGb2 = new Telerik.WinControls.UI.RadGroupBox();
@@ -124,30 +124,30 @@
             this.rgvUsers.MasterTemplate.AllowEditRow = false;
             this.rgvUsers.MasterTemplate.AllowRowResize = false;
             this.rgvUsers.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewTextBoxColumn1.HeaderText = "Customer No.";
-            gridViewTextBoxColumn1.Name = "CustomerNo";
-            gridViewTextBoxColumn1.Width = 111;
-            gridViewTextBoxColumn2.AllowFiltering = false;
-            gridViewTextBoxColumn2.AllowGroup = false;
-            gridViewTextBoxColumn2.AllowHide = false;
-            gridViewTextBoxColumn2.AllowReorder = false;
-            gridViewTextBoxColumn2.HeaderText = "User Name";
-            gridViewTextBoxColumn2.Name = "Username";
-            gridViewTextBoxColumn2.RowSpan = 25;
-            gridViewTextBoxColumn2.Width = 111;
-            gridViewTextBoxColumn3.HeaderText = "User Type";
-            gridViewTextBoxColumn3.Name = "UserType";
-            gridViewTextBoxColumn3.Width = 97;
-            gridViewTextBoxColumn4.HeaderText = "Advance Amount";
-            gridViewTextBoxColumn4.Name = "Advance";
-            gridViewTextBoxColumn4.Width = 125;
+            gridViewTextBoxColumn9.HeaderText = "Customer No.";
+            gridViewTextBoxColumn9.Name = "CustomerNo";
+            gridViewTextBoxColumn9.Width = 111;
+            gridViewTextBoxColumn10.AllowFiltering = false;
+            gridViewTextBoxColumn10.AllowGroup = false;
+            gridViewTextBoxColumn10.AllowHide = false;
+            gridViewTextBoxColumn10.AllowReorder = false;
+            gridViewTextBoxColumn10.HeaderText = "User Name";
+            gridViewTextBoxColumn10.Name = "Username";
+            gridViewTextBoxColumn10.RowSpan = 25;
+            gridViewTextBoxColumn10.Width = 111;
+            gridViewTextBoxColumn11.HeaderText = "User Type";
+            gridViewTextBoxColumn11.Name = "UserType";
+            gridViewTextBoxColumn11.Width = 97;
+            gridViewTextBoxColumn12.HeaderText = "Advance Amount";
+            gridViewTextBoxColumn12.Name = "Advance";
+            gridViewTextBoxColumn12.Width = 125;
             this.rgvUsers.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn1,
-            gridViewTextBoxColumn2,
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4});
+            gridViewTextBoxColumn9,
+            gridViewTextBoxColumn10,
+            gridViewTextBoxColumn11,
+            gridViewTextBoxColumn12});
             this.rgvUsers.MasterTemplate.EnableGrouping = false;
-            this.rgvUsers.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.rgvUsers.MasterTemplate.ViewDefinition = tableViewDefinition3;
             this.rgvUsers.Name = "rgvUsers";
             this.rgvUsers.Size = new System.Drawing.Size(461, 512);
             this.rgvUsers.TabIndex = 0;
@@ -365,7 +365,7 @@
             // 
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnSave.ForeColor = System.Drawing.Color.Teal;
-            this.btnSave.Location = new System.Drawing.Point(247, 506);
+            this.btnSave.Location = new System.Drawing.Point(247, 452);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(103, 31);
             this.btnSave.TabIndex = 13;
@@ -386,7 +386,7 @@
             // 
             this.btnNew.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
             this.btnNew.ForeColor = System.Drawing.Color.Teal;
-            this.btnNew.Location = new System.Drawing.Point(120, 506);
+            this.btnNew.Location = new System.Drawing.Point(132, 452);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(103, 31);
             this.btnNew.TabIndex = 10;
