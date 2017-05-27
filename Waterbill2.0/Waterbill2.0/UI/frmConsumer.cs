@@ -17,23 +17,3 @@ namespace Waterbill2.UI
         }
     }
 }
-
-       
-
-       
-
-        
-       
-
-        
-        
-      
-
-      
-
-
-       
-
-       
-    }
-}

@@ -15,5 +15,10 @@ namespace Waterbill2.UI
         {
             InitializeComponent();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
