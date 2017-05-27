@@ -82,16 +82,26 @@ namespace Waterbill2.UI
             Param.Add(txtPassword.Text.ToString());
             Param.Add(Convert.ToInt32(ddlRoles.SelectedValue.ToString()));
             Param.Add(Convert.ToInt32(ddlActive.SelectedValue.ToString()));*/
-            if (WBLib.User.SaveUser(Param) == true)
-            {
-                MessageBox.Show("Saved Succsessfully", "WaterBill");
-                ClearField();
-               // FillUsers();
-            }
-            else
-            {
-                MessageBox.Show("Error in Saving", "WaterBill");
-            }
+            //if (WBLib.User.SaveUser(Param) == true)
+            //{
+            //    MessageBox.Show("Saved Succsessfully", "WaterBill");
+            //    ClearField();
+            //   // FillUsers();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Error in Saving", "WaterBill");
+            //}
+        }
+
+        private void radGb1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmUsers_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
