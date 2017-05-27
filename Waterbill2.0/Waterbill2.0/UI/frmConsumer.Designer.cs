@@ -36,13 +36,10 @@
             this.radGb1 = new Telerik.WinControls.UI.RadGroupBox();
             this.rgvUsers = new Telerik.WinControls.UI.RadGridView();
             this.radGb2 = new Telerik.WinControls.UI.RadGroupBox();
+            this.ddlActive = new Telerik.WinControls.UI.RadDropDownList();
             this.txtIdCardNo = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.lblAddress = new Telerik.WinControls.UI.RadLabel();
-            this.btnWithdraw = new Telerik.WinControls.UI.RadButton();
-            this.btnAdd = new Telerik.WinControls.UI.RadButton();
-            this.radTextBox1 = new Telerik.WinControls.UI.RadTextBox();
-            this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
             this.txtRemarks = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
@@ -65,19 +62,15 @@
             this.txtName = new Telerik.WinControls.UI.RadTextBox();
             this.lbname = new Telerik.WinControls.UI.RadLabel();
             this.radThemeManager1 = new Telerik.WinControls.RadThemeManager();
-            this.ddlActive = new Telerik.WinControls.UI.RadDropDownList();
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).BeginInit();
             this.radGb1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rgvUsers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGb2)).BeginInit();
             this.radGb2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtIdCardNo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblAddress)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdraw)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtRemarks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
@@ -99,7 +92,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblCNo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtName)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbname)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -167,10 +159,6 @@
             this.radGb2.Controls.Add(this.txtIdCardNo);
             this.radGb2.Controls.Add(this.radLabel2);
             this.radGb2.Controls.Add(this.lblAddress);
-            this.radGb2.Controls.Add(this.btnWithdraw);
-            this.radGb2.Controls.Add(this.btnAdd);
-            this.radGb2.Controls.Add(this.radTextBox1);
-            this.radGb2.Controls.Add(this.radLabel5);
             this.radGb2.Controls.Add(this.txtRemarks);
             this.radGb2.Controls.Add(this.radLabel4);
             this.radGb2.Controls.Add(this.radLabel3);
@@ -200,6 +188,13 @@
             this.radGb2.Size = new System.Drawing.Size(523, 556);
             this.radGb2.TabIndex = 4;
             this.radGb2.Text = "Add Consumer";
+            // 
+            // ddlActive
+            // 
+            this.ddlActive.Location = new System.Drawing.Point(247, 410);
+            this.ddlActive.Name = "ddlActive";
+            this.ddlActive.Size = new System.Drawing.Size(198, 20);
+            this.ddlActive.TabIndex = 32;
             // 
             // txtIdCardNo
             // 
@@ -231,47 +226,6 @@
             this.lblAddress.Size = new System.Drawing.Size(60, 22);
             this.lblAddress.TabIndex = 5;
             this.lblAddress.Text = "Address";
-            // 
-            // btnWithdraw
-            // 
-            this.btnWithdraw.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
-            this.btnWithdraw.ForeColor = System.Drawing.Color.Teal;
-            this.btnWithdraw.Location = new System.Drawing.Point(365, 438);
-            this.btnWithdraw.Name = "btnWithdraw";
-            this.btnWithdraw.Size = new System.Drawing.Size(78, 26);
-            this.btnWithdraw.TabIndex = 11;
-            this.btnWithdraw.Text = "Withdraw";
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
-            this.btnAdd.ForeColor = System.Drawing.Color.Teal;
-            this.btnAdd.Location = new System.Drawing.Point(314, 438);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(45, 26);
-            this.btnAdd.TabIndex = 29;
-            this.btnAdd.Text = "Add";
-            // 
-            // radTextBox1
-            // 
-            this.radTextBox1.AutoSize = false;
-            this.radTextBox1.Font = new System.Drawing.Font("Segoe UI", 10.25F);
-            this.radTextBox1.Location = new System.Drawing.Point(245, 438);
-            this.radTextBox1.Multiline = true;
-            this.radTextBox1.Name = "radTextBox1";
-            this.radTextBox1.PasswordChar = '*';
-            this.radTextBox1.Size = new System.Drawing.Size(63, 24);
-            this.radTextBox1.TabIndex = 28;
-            // 
-            // radLabel5
-            // 
-            this.radLabel5.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel5.ForeColor = System.Drawing.Color.Teal;
-            this.radLabel5.Location = new System.Drawing.Point(14, 438);
-            this.radLabel5.Name = "radLabel5";
-            this.radLabel5.Size = new System.Drawing.Size(183, 22);
-            this.radLabel5.TabIndex = 27;
-            this.radLabel5.Text = "Advace Collection Amount";
             // 
             // txtRemarks
             // 
@@ -488,13 +442,6 @@
             this.lbname.TabIndex = 0;
             this.lbname.Text = "Name";
             // 
-            // ddlActive
-            // 
-            this.ddlActive.Location = new System.Drawing.Point(247, 410);
-            this.ddlActive.Name = "ddlActive";
-            this.ddlActive.Size = new System.Drawing.Size(198, 20);
-            this.ddlActive.TabIndex = 32;
-            // 
             // frmConsumer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -515,13 +462,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGb2)).EndInit();
             this.radGb2.ResumeLayout(false);
             this.radGb2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtIdCardNo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblAddress)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnWithdraw)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtRemarks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
@@ -543,7 +487,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblCNo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtName)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbname)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -576,10 +519,6 @@
         private Telerik.WinControls.UI.RadLabel radLabel3;
         private Telerik.WinControls.UI.RadLabel radLabel4;
         private Telerik.WinControls.UI.RadTextBox txtRemarks;
-        private Telerik.WinControls.UI.RadButton btnWithdraw;
-        private Telerik.WinControls.UI.RadButton btnAdd;
-        private Telerik.WinControls.UI.RadTextBox radTextBox1;
-        private Telerik.WinControls.UI.RadLabel radLabel5;
         private Telerik.WinControls.RadThemeManager radThemeManager1;
         private Telerik.WinControls.UI.RadTextBox txtIdCardNo;
         private Telerik.WinControls.UI.RadLabel radLabel2;

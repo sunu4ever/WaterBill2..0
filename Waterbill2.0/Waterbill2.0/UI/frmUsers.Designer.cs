@@ -28,18 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition3 = new Telerik.WinControls.UI.TableViewDefinition();
             this.office2010BlueTheme1 = new Telerik.WinControls.Themes.Office2010BlueTheme();
             this.btnSave = new Telerik.WinControls.UI.RadButton();
             this.ddlRoles = new Telerik.WinControls.UI.RadDropDownList();
             this.txtPassword = new Telerik.WinControls.UI.RadTextBox();
             this.txtLoginId = new Telerik.WinControls.UI.RadTextBox();
             this.btnNew = new Telerik.WinControls.UI.RadButton();
-            this.ddlActive = new Telerik.WinControls.UI.RadDropDownList();
             this.rlbRole = new Telerik.WinControls.UI.RadLabel();
             this.rlbActive = new Telerik.WinControls.UI.RadLabel();
             this.rlbLoginId = new Telerik.WinControls.UI.RadLabel();
@@ -50,12 +49,12 @@
             this.radGb2 = new Telerik.WinControls.UI.RadGroupBox();
             this.radGb1 = new Telerik.WinControls.UI.RadGroupBox();
             this.rgvUsers = new Telerik.WinControls.UI.RadGridView();
+            this.ddlActive = new Telerik.WinControls.UI.RadDropDownList();
             ((System.ComponentModel.ISupportInitialize)(this.btnSave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ddlRoles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtLoginId)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNew)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rlbRole)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rlbActive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rlbLoginId)).BeginInit();
@@ -67,6 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).BeginInit();
             this.radGb1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rgvUsers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,14 +119,6 @@
             this.btnNew.TabIndex = 10;
             this.btnNew.Text = "New";
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
-            // 
-            // ddlActive
-            // 
-            this.ddlActive.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
-            this.ddlActive.Location = new System.Drawing.Point(161, 198);
-            this.ddlActive.Name = "ddlActive";
-            this.ddlActive.Size = new System.Drawing.Size(198, 24);
-            this.ddlActive.TabIndex = 9;
             // 
             // rlbRole
             // 
@@ -191,12 +183,12 @@
             // radGb2
             // 
             this.radGb2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGb2.Controls.Add(this.ddlActive);
             this.radGb2.Controls.Add(this.btnSave);
             this.radGb2.Controls.Add(this.ddlRoles);
             this.radGb2.Controls.Add(this.txtPassword);
             this.radGb2.Controls.Add(this.txtLoginId);
             this.radGb2.Controls.Add(this.btnNew);
-            this.radGb2.Controls.Add(this.ddlActive);
             this.radGb2.Controls.Add(this.rlbRole);
             this.radGb2.Controls.Add(this.rlbActive);
             this.radGb2.Controls.Add(this.rlbLoginId);
@@ -240,33 +232,41 @@
             this.rgvUsers.MasterTemplate.AllowEditRow = false;
             this.rgvUsers.MasterTemplate.AllowRowResize = false;
             this.rgvUsers.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewTextBoxColumn1.HeaderText = "User";
-            gridViewTextBoxColumn1.Name = "column3";
-            gridViewTextBoxColumn1.Width = 118;
-            gridViewTextBoxColumn2.AllowFiltering = false;
-            gridViewTextBoxColumn2.AllowGroup = false;
-            gridViewTextBoxColumn2.AllowHide = false;
-            gridViewTextBoxColumn2.AllowReorder = false;
-            gridViewTextBoxColumn2.HeaderText = "Username";
-            gridViewTextBoxColumn2.Name = "username";
-            gridViewTextBoxColumn2.RowSpan = 25;
-            gridViewTextBoxColumn2.Width = 167;
-            gridViewTextBoxColumn3.HeaderText = "Role";
-            gridViewTextBoxColumn3.Name = "column2";
-            gridViewTextBoxColumn3.Width = 119;
-            gridViewTextBoxColumn4.HeaderText = "Active";
-            gridViewTextBoxColumn4.Name = "column1";
-            gridViewTextBoxColumn4.Width = 53;
+            gridViewTextBoxColumn9.HeaderText = "User";
+            gridViewTextBoxColumn9.Name = "column3";
+            gridViewTextBoxColumn9.Width = 118;
+            gridViewTextBoxColumn10.AllowFiltering = false;
+            gridViewTextBoxColumn10.AllowGroup = false;
+            gridViewTextBoxColumn10.AllowHide = false;
+            gridViewTextBoxColumn10.AllowReorder = false;
+            gridViewTextBoxColumn10.HeaderText = "Username";
+            gridViewTextBoxColumn10.Name = "username";
+            gridViewTextBoxColumn10.RowSpan = 25;
+            gridViewTextBoxColumn10.Width = 167;
+            gridViewTextBoxColumn11.HeaderText = "Role";
+            gridViewTextBoxColumn11.Name = "column2";
+            gridViewTextBoxColumn11.Width = 119;
+            gridViewTextBoxColumn12.HeaderText = "Active";
+            gridViewTextBoxColumn12.Name = "column1";
+            gridViewTextBoxColumn12.Width = 53;
             this.rgvUsers.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn1,
-            gridViewTextBoxColumn2,
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4});
+            gridViewTextBoxColumn9,
+            gridViewTextBoxColumn10,
+            gridViewTextBoxColumn11,
+            gridViewTextBoxColumn12});
             this.rgvUsers.MasterTemplate.EnableGrouping = false;
-            this.rgvUsers.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.rgvUsers.MasterTemplate.ViewDefinition = tableViewDefinition3;
             this.rgvUsers.Name = "rgvUsers";
             this.rgvUsers.Size = new System.Drawing.Size(474, 260);
             this.rgvUsers.TabIndex = 0;
+            // 
+            // ddlActive
+            // 
+            this.ddlActive.Font = new System.Drawing.Font("Segoe UI", 10.25F, System.Drawing.FontStyle.Bold);
+            this.ddlActive.Location = new System.Drawing.Point(161, 198);
+            this.ddlActive.Name = "ddlActive";
+            this.ddlActive.Size = new System.Drawing.Size(198, 24);
+            this.ddlActive.TabIndex = 14;
             // 
             // frmUsers
             // 
@@ -288,7 +288,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtLoginId)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnNew)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rlbRole)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rlbActive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rlbLoginId)).EndInit();
@@ -301,6 +300,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGb1)).EndInit();
             this.radGb1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rgvUsers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ddlActive)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -314,7 +314,6 @@
         private Telerik.WinControls.UI.RadTextBox txtPassword;
         private Telerik.WinControls.UI.RadTextBox txtLoginId;
         private Telerik.WinControls.UI.RadButton btnNew;
-        private Telerik.WinControls.UI.RadDropDownList ddlActive;
         private Telerik.WinControls.UI.RadLabel rlbRole;
         private Telerik.WinControls.UI.RadLabel rlbActive;
         private Telerik.WinControls.UI.RadLabel rlbLoginId;
@@ -325,5 +324,6 @@
         private Telerik.WinControls.UI.RadGroupBox radGb2;
         private Telerik.WinControls.UI.RadGroupBox radGb1;
         private Telerik.WinControls.UI.RadGridView rgvUsers;
+        private Telerik.WinControls.UI.RadDropDownList ddlActive;
     }
 }

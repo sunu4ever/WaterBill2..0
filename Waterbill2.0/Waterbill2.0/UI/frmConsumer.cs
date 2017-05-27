@@ -18,7 +18,7 @@ namespace Waterbill2.UI
 
         private void radLabel2_Click(object sender, EventArgs e)
         {
-                    }
+                    }  
 
        
 
